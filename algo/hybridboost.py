@@ -8,6 +8,7 @@ from collections import ChainMap
 
 import warnings
 import numpy as np
+from smote import ADASYN
 from sklearn.base import is_regressor
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.ensemble.forest import BaseForest
@@ -167,9 +168,9 @@ class HybridBoost(AdaBoostClassifier):
 
 
 
-    def fit(self, X, y, sample_weight=None, minority_target=None):
+    def fit(self, X, y, minority_target=None):
         """Build a boosted classifier/regressor from the training set (X, y),
-        performing SMOTE during each boosting step.
+        performing ADASYN during each boosting step.
         Parameters
         ----------
         X : {array-like, sparse matrix} of shape = [n_samples, n_features]
@@ -180,9 +181,6 @@ class HybridBoost(AdaBoostClassifier):
         y : array-like of shape = [n_samples]
             The target values (class labels in classification, real numbers in
             regression).
-        sample_weight : array-like of shape = [n_samples], optional
-            Sample weights. If None, the sample weights are initialized to
-            1 / n_samples.
         minority_target : int
             Minority class label.
         Returns
@@ -215,24 +213,18 @@ class HybridBoost(AdaBoostClassifier):
         X, y = check_X_y(X, y, accept_sparse=accept_sparse, dtype=dtype,
                          y_numeric=is_regressor(self))
 
-        if sample_weight is None:
-            # Initialize weights to 1 / n_samples.
-            sample_weight = np.empty(X.shape[0], dtype=np.float64)
-            sample_weight[:] = 1. / X.shape[0]
-        else:
-            sample_weight = check_array(sample_weight, ensure_2d=False)
-            # Normalize existing weights.
-            sample_weight = sample_weight / sample_weight.sum(dtype=np.float64)
+        # Classify the minorith examples
+        labels = self.label_minority(np.array(X), np.array(y))
+        
+        # Undersampling 
+        ret = self.undersample(np.array(X), np.array(y),labels['Borderline'])
+        X_select = np.delete(X, ret, axis=0)
+        y_select = np.delete(y, ret, axis=0)
 
-            # Check that the sample weights sum is positive.
-            if sample_weight.sum() <= 0:
-                raise ValueError(
-                    "Attempting to fit with a non-positive "
-                    "weighted number of samples.")
 
         if minority_target is None:
             # Determine the minority class label.
-            stats_c_ = Counter(y)
+            stats_c_ = Counter(y_select)
             maj_c_ = max(stats_c_, key=stats_c_.get)
             min_c_ = min(stats_c_, key=stats_c_.get)
             self.minority_target = min_c_
@@ -249,35 +241,27 @@ class HybridBoost(AdaBoostClassifier):
 
         random_state = check_random_state(self.random_state)
 
-        for iboost in range(self.n_estimators):
-            # SMOTE step.
-            X_min = X[np.where(y == self.minority_target)]
-            self.smote.fit(X_min)
-            X_syn = self.smote.sample(self.n_samples)
-            y_syn = np.full(X_syn.shape[0], fill_value=self.minority_target,
-                            dtype=np.int64)
+        self.adasyn = ADASYN(k=self.k_neighbors,
+                                ratio=self.n_samples/X_select.shape[0],
+                                random_state=self.random_state,
+                                imb_threshold=1.0)
 
-            # Normalize synthetic sample weights based on current training set.
-            sample_weight_syn = np.empty(X_syn.shape[0], dtype=np.float64)
-            sample_weight_syn[:] = 1. / X.shape[0]
+        for iboost in range(self.n_estimators):
+            # Oversampling step.
+            X_syn, y_syn = self.adasyn.fit_transform(X_select, y_select)
 
             # Combine the original and synthetic samples.
-            X = np.vstack((X, X_syn))
-            y = np.append(y, y_syn)
+            X_new = np.vstack((X_select, X_syn))
+            y_new = np.append(y_select, y_syn)
 
-            # Combine the weights.
-            sample_weight = \
-                np.append(sample_weight, sample_weight_syn).reshape(-1, 1)
-            sample_weight = \
-                np.squeeze(normalize(sample_weight, axis=0, norm='l1'))
+            # Normalize synthetic sample weights based on current training set.
+            sample_weight = np.full(X_new.shape[0], 1./X_new.shape[0],dtype=np.float64)
 
-            # X, y, sample_weight = shuffle(X, y, sample_weight,
-            #                              random_state=random_state)
 
             # Boosting step.
             sample_weight, estimator_weight, estimator_error = self._boost(
                 iboost,
-                X, y,
+                X_new, y_new,
                 sample_weight,
                 random_state)
 

@@ -100,7 +100,7 @@ class ADASYN(object):
                  imb_threshold=0.5,
                  k=5,
                  random_state=None,
-                 verbose=True):
+                 verbose=False):
         """
         :ratio:
             Growth percentage with respect to initial minority
@@ -165,6 +165,7 @@ class ADASYN(object):
         # Find majority class
         v = list(self.clstats.values())
         k = list(self.clstats.keys())
+
         self.maj_class_ = k[v.index(max(v))]
 
         if self.verbose:
@@ -186,8 +187,8 @@ class ADASYN(object):
         self.fit(X, y)
         self.new_X, self.new_y = self.oversample()
 
-        self.new_X = np.concatenate((self.new_X, self.X), axis=0)
-        self.new_y = np.concatenate((self.new_y, self.y), axis=0)
+        # self.new_X = np.concatenate((self.new_X, self.X), axis=0)
+        # self.new_y = np.concatenate((self.new_y, self.y), axis=0)
 
         return self.new_X, self.new_y
 
