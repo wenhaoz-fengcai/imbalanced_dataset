@@ -165,11 +165,15 @@ class ADASYN(object):
         v = list(self.clstats.values())
         k = list(self.clstats.keys())
         self.maj_class_ = k[v.index(max(v))]
+        self.min_class_ = k[v.index(min(v))]
 
         if self.verbose:
             print(
                 'Majority class is %s and total number of classes is %s'
                 % (self.maj_class_, len(self.unique_classes_)))
+            print(
+                'Minority class is %s and total number of classes is %s'
+                % (self.min_class_, len(self.unique_classes_)))
 
     def transform(self, X, y):
         """
@@ -300,6 +304,7 @@ class ADASYN(object):
         # index_new contains the indiced of artificial examples
         self.index_new = [i for i in range(0,self.num_new)]
         return(int_X[1:-1], int_y[1:-1])
+
 
 
 class SMOTEBoost(AdaBoostClassifier):
