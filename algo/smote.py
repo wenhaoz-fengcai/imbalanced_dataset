@@ -100,7 +100,7 @@ class ADASYN(object):
                  imb_threshold=0.5,
                  k=5,
                  random_state=None,
-                 verbose=False):
+                 verbose=True):
         """
         :ratio:
             Growth percentage with respect to initial minority
@@ -150,7 +150,6 @@ class ADASYN(object):
         """
         self.X = check_array(X)
         self.y = np.array(y).astype(np.int64)
-        assert self.X.shape[0] == self.y.shape[0]
         self.random_state_ = check_random_state(self.random_state)
         self.unique_classes_ = set(self.y)
 
@@ -165,7 +164,6 @@ class ADASYN(object):
         # Find majority class
         v = list(self.clstats.values())
         k = list(self.clstats.keys())
-
         self.maj_class_ = k[v.index(max(v))]
 
         if self.verbose:
@@ -187,8 +185,8 @@ class ADASYN(object):
         self.fit(X, y)
         self.new_X, self.new_y = self.oversample()
 
-        # self.new_X = np.concatenate((self.new_X, self.X), axis=0)
-        # self.new_y = np.concatenate((self.new_y, self.y), axis=0)
+        self.new_X = np.concatenate((self.new_X, self.X), axis=0)
+        self.new_y = np.concatenate((self.new_y, self.y), axis=0)
 
         return self.new_X, self.new_y
 
@@ -211,8 +209,8 @@ class ADASYN(object):
             # generate gi synthetic examples for every minority example
             for i in range(0, int(self.gi[ind])):
                 # randi holds an integer to choose a random minority kNNs
-                randi = self.random_state_.randint(
-                    0, len(min_knns))
+                randi = self.random_state_.random_integers(
+                    0, len(min_knns) - 1)
                 # l is a random number in [0,1)
                 l = self.random_state_.random_sample()
                 # X[min_knns[randi]] is the Xzi on equation [5]
