@@ -25,9 +25,9 @@ MAJORITY = 0
 MINORITY = 1
 
 
-class HybridBoost(AdaBoostClassifier):
-    """Implementation of HybridBoost.
-    HybridBoost introduces data resampling into the AdaBoost algorithm by
+class DEVALGO(AdaBoostClassifier):
+    """Implementation of DEVALGO.
+    DEVALGO introduces data resampling into the AdaBoost algorithm by
     oversampling the minority class using ADASYN and undersampling the majority at borderline on each boosting iteration [1].
     This implementation inherits methods from the scikit-learn 
     AdaBoostClassifier class, only overriding the `fit` method.
@@ -76,7 +76,7 @@ class HybridBoost(AdaBoostClassifier):
         self.algorithm = algorithm
         self.k_neighbors = k_neighbors
 
-        super(HybridBoost, self).__init__(
+        super(DEVALGO, self).__init__(
             base_estimator=base_estimator,
             n_estimators=n_estimators,
             learning_rate=learning_rate,
@@ -445,8 +445,8 @@ class ADASYN(object):
             # generate gi synthetic examples for every minority example
             for i in range(0, int(self.gi[ind])):
                 # randi holds an integer to choose a random minority kNNs
-                randi = self.random_state_.random_integers(
-                    0, len(min_knns) - 1)
+                randi = self.random_state_.randint(
+                    0, len(min_knns))
                 # l is a random number in [0,1)
                 l = self.random_state_.random_sample()
                 # X[min_knns[randi]] is the Xzi on equation [5]
