@@ -3587,7 +3587,7 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.89
+0.89*
 \end_layout
 
 \end_inset
@@ -3652,7 +3652,7 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.86
+0.86*
 \end_layout
 
 \end_inset
@@ -3661,7 +3661,7 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.86
+0.86*
 \end_layout
 
 \end_inset
@@ -3670,7 +3670,7 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.86
+0.86*
 \end_layout
 
 \end_inset
@@ -3679,7 +3679,7 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.86
+0.86*
 \end_layout
 
 \end_inset
@@ -3688,7 +3688,7 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.83
+0.83*
 \end_layout
 
 \end_inset
@@ -3697,7 +3697,7 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.89
+0.89*
 \end_layout
 
 \end_inset
@@ -3825,7 +3825,7 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.84
+0.84*
 \end_layout
 
 \end_inset
@@ -3926,7 +3926,7 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.86
+0.86*
 \end_layout
 
 \end_inset
