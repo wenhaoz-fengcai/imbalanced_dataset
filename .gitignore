@@ -1,1 +1,7 @@
 ENV/
+algo/data/
+__pycache__
+*.zip
+*.ipynb
+*.lyx*
+*.pdf
