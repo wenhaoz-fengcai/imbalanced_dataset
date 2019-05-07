@@ -121,8 +121,8 @@ class Oversample(object):
         self.fit(X, y, D)
         self.new_X, self.new_y = self.oversample()
 
-        self.new_X = np.concatenate((self.new_X, self.X), axis=0)
-        self.new_y = np.concatenate((self.new_y, self.y), axis=0)
+        # self.new_X = np.concatenate((self.new_X, self.X), axis=0)
+        # self.new_y = np.concatenate((self.new_y, self.y), axis=0)
 
         return self.new_X, self.new_y
 
