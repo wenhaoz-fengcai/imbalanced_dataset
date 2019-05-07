@@ -121,10 +121,8 @@ textwidth}{!}{
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="91" columns="12">
+<lyxtabular version="3" rows="91" columns="10">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -150,15 +148,6 @@ Dataset
 
 \begin_layout Plain Layout
 Methods
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-OA
 \end_layout
 
 \end_inset
@@ -204,15 +193,6 @@ G_mean
 
 \begin_layout Plain Layout
 Specificity
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Sensitivity
 \end_layout
 
 \end_inset
@@ -268,18 +248,8 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.71
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.61
 \end_layout
 
@@ -318,17 +288,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.80
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.54
 \end_layout
 
 \end_inset
@@ -384,15 +344,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.67
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.55
 \end_layout
 
@@ -430,15 +381,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.75
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.54
 \end_layout
 
 \end_inset
@@ -494,15 +436,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.68
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.56
 \end_layout
 
@@ -540,15 +473,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.74
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.58
 \end_layout
 
 \end_inset
@@ -604,15 +528,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.66
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.52
 \end_layout
 
@@ -624,7 +539,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.86
 \end_layout
 
@@ -653,18 +567,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.54
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.86
 \end_layout
 
 \end_inset
@@ -720,18 +622,6 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.73
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.60
 \end_layout
 
@@ -752,7 +642,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.68
 \end_layout
 
@@ -764,7 +653,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.74
 \end_layout
 
@@ -783,18 +671,8 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.78
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.74
 \end_layout
 
@@ -842,15 +720,6 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.93
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.46
 \end_layout
 
@@ -862,7 +731,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.46
 \end_layout
 
@@ -874,7 +742,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.46
 \end_layout
 
@@ -886,7 +753,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.66
 \end_layout
 
@@ -907,19 +773,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.46
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.71
 \end_layout
 
@@ -967,15 +820,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.88
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.24
 \end_layout
 
@@ -1013,15 +857,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.92
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.38
 \end_layout
 
 \end_inset
@@ -1077,15 +912,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.88
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.24
 \end_layout
 
@@ -1123,15 +949,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.91
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.42
 \end_layout
 
 \end_inset
@@ -1187,15 +1004,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.84
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.19
 \end_layout
 
@@ -1207,7 +1015,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.46
 \end_layout
 
@@ -1236,18 +1043,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.87
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.46
 \end_layout
 
 \end_inset
@@ -1305,19 +1100,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.94
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.55
 \end_layout
 
@@ -1356,17 +1138,7 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.34
 \end_layout
 
 \end_inset
@@ -1422,18 +1194,8 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.90
 \end_layout
 
@@ -1472,17 +1234,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.99
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.79
 \end_layout
 
 \end_inset
@@ -1538,15 +1290,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.85
 \end_layout
 
@@ -1584,15 +1327,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.99
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.74
 \end_layout
 
 \end_inset
@@ -1648,15 +1382,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.88
 \end_layout
 
@@ -1694,15 +1419,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.99
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.79
 \end_layout
 
 \end_inset
@@ -1758,18 +1474,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.83
 \end_layout
 
@@ -1807,15 +1511,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.96
 \end_layout
 
 \end_inset
@@ -1871,18 +1566,6 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.87
 \end_layout
 
@@ -1894,7 +1577,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.98
 \end_layout
 
@@ -1906,7 +1588,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.93
 \end_layout
 
@@ -1918,7 +1599,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.98
 \end_layout
 
@@ -1930,7 +1610,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.99
 \end_layout
 
@@ -1942,19 +1621,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.98
 \end_layout
 
@@ -2002,18 +1668,6 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.62
 \end_layout
 
@@ -2052,17 +1706,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.99
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.64
 \end_layout
 
 \end_inset
@@ -2118,15 +1762,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.41
 \end_layout
 
@@ -2138,7 +1773,6 @@ SMOTE
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.78
 \end_layout
 
@@ -2159,7 +1793,6 @@ SMOTE
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.87
 \end_layout
 
@@ -2180,19 +1813,6 @@ SMOTE
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.78
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.88
 \end_layout
 
@@ -2240,15 +1860,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.38
 \end_layout
 
@@ -2286,15 +1897,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.72
 \end_layout
 
 \end_inset
@@ -2350,18 +1952,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.54
 \end_layout
 
@@ -2399,15 +1989,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.76
 \end_layout
 
 \end_inset
@@ -2465,19 +2046,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.66
 \end_layout
 
@@ -2498,7 +2066,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.67
 \end_layout
 
@@ -2519,17 +2086,7 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.99
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.67
 \end_layout
 
 \end_inset
@@ -2585,15 +2142,6 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.86
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.83
 \end_layout
 
@@ -2631,15 +2179,6 @@ Decision Tree
 
 \begin_layout Plain Layout
 0.92
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.73
 \end_layout
 
 \end_inset
@@ -2695,15 +2234,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.85
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.75
 \end_layout
 
@@ -2741,15 +2271,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.86
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.81
 \end_layout
 
 \end_inset
@@ -2805,15 +2326,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.88
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.84
 \end_layout
 
@@ -2851,15 +2363,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.92
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.80
 \end_layout
 
 \end_inset
@@ -2915,18 +2418,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.91
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.89
 \end_layout
 
@@ -2938,7 +2429,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.85
 \end_layout
 
@@ -2950,7 +2440,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.87
 \end_layout
 
@@ -2962,7 +2451,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.90
 \end_layout
 
@@ -2983,19 +2471,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.85
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.90
 \end_layout
 
@@ -3045,19 +2520,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.91
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.92
 \end_layout
 
@@ -3096,17 +2558,7 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.79
 \end_layout
 
 \end_inset
@@ -3162,18 +2614,8 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.94
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.85
 \end_layout
 
@@ -3212,17 +2654,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.88
 \end_layout
 
 \end_inset
@@ -3278,15 +2710,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.90
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.75
 \end_layout
 
@@ -3324,15 +2747,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.91
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.88
 \end_layout
 
 \end_inset
@@ -3388,15 +2802,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.92
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.81
 \end_layout
 
@@ -3434,15 +2839,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.93
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.87
 \end_layout
 
 \end_inset
@@ -3498,18 +2894,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.84
 \end_layout
 
@@ -3521,7 +2905,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.97
 \end_layout
 
@@ -3533,7 +2916,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.90
 \end_layout
 
@@ -3545,7 +2927,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.96
 \end_layout
 
@@ -3566,19 +2947,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.96
 \end_layout
 
@@ -3626,15 +2994,6 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.89
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.70
 \end_layout
 
@@ -3646,7 +3005,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.97
 \end_layout
 
@@ -3675,18 +3033,6 @@ Dev
 
 \begin_layout Plain Layout
 0.87
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.97
 \end_layout
 
 \end_inset
@@ -3744,19 +3090,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.86
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.75
 \end_layout
 
@@ -3795,17 +3128,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.90
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.74
 \end_layout
 
 \end_inset
@@ -3861,18 +3184,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.86
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.74
 \end_layout
 
@@ -3893,7 +3204,6 @@ SMOTE
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.76
 \end_layout
 
@@ -3905,7 +3215,6 @@ SMOTE
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.83
 \end_layout
 
@@ -3924,18 +3233,8 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.78
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.83
 \end_layout
 
@@ -3983,15 +3282,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.83
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.68
 \end_layout
 
@@ -4029,15 +3319,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.85
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.78
 \end_layout
 
 \end_inset
@@ -4093,15 +3374,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.77
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.57
 \end_layout
 
@@ -4139,15 +3411,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.74
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.86
 \end_layout
 
 \end_inset
@@ -4203,15 +3466,6 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.52
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.38
 \end_layout
 
@@ -4223,7 +3477,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.99
 \end_layout
 
@@ -4252,18 +3505,6 @@ Dev
 
 \begin_layout Plain Layout
 0.34
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.99
 \end_layout
 
 \end_inset
@@ -4319,18 +3560,6 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.67
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.38
 \end_layout
 
@@ -4369,17 +3598,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.83
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.25
 \end_layout
 
 \end_inset
@@ -4435,18 +3654,8 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.65
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.40
 \end_layout
 
@@ -4476,7 +3685,6 @@ SMOTE
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.64
 \end_layout
 
@@ -4487,15 +3695,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.76
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.39
 \end_layout
 
 \end_inset
@@ -4551,15 +3750,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.60
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.37
 \end_layout
 
@@ -4597,15 +3787,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.63
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.52
 \end_layout
 
 \end_inset
@@ -4661,15 +3842,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.48
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.34
 \end_layout
 
@@ -4681,7 +3853,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.84
 \end_layout
 
@@ -4693,7 +3864,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.48
 \end_layout
 
@@ -4723,19 +3893,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.84
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.59
 \end_layout
 
@@ -4775,15 +3932,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 Dev
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.54
 \end_layout
 
 \end_inset
@@ -4837,18 +3985,8 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.70
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.59
 \end_layout
 
@@ -4896,15 +4034,6 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.93
 \end_layout
 
@@ -4942,15 +4071,6 @@ Decision Tree
 
 \begin_layout Plain Layout
 0.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.93
 \end_layout
 
 \end_inset
@@ -5006,15 +4126,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.92
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.89
 \end_layout
 
@@ -5052,15 +4163,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.93
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.90
 \end_layout
 
 \end_inset
@@ -5116,15 +4218,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.93
 \end_layout
 
@@ -5162,15 +4255,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.94
 \end_layout
 
 \end_inset
@@ -5228,19 +4312,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.99
 \end_layout
 
@@ -5252,7 +4323,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.95
 \end_layout
 
@@ -5264,7 +4334,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.97
 \end_layout
 
@@ -5276,7 +4345,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.97
 \end_layout
 
@@ -5288,7 +4356,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.99
 \end_layout
 
@@ -5300,19 +4367,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.97
 \end_layout
 
@@ -5369,18 +4423,8 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.95
 \end_layout
 
@@ -5409,18 +4453,6 @@ Dev
 
 \begin_layout Plain Layout
 0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.95
 \end_layout
 
 \end_inset
@@ -5478,19 +4510,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.72
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.39
 \end_layout
 
@@ -5529,17 +4548,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.86
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.28
 \end_layout
 
 \end_inset
@@ -5566,7 +4575,7 @@ Maj: 570 Min: 178
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.2
+1.7
 \end_layout
 
 \end_inset
@@ -5595,18 +4604,8 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.71
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.39
 \end_layout
 
@@ -5644,15 +4643,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.81
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.39
 \end_layout
 
 \end_inset
@@ -5708,15 +4698,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.70
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.38
 \end_layout
 
@@ -5754,15 +4735,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.78
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.42
 \end_layout
 
 \end_inset
@@ -5818,15 +4790,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.44
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.29
 \end_layout
 
@@ -5838,7 +4801,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.93
 \end_layout
 
@@ -5850,7 +4812,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.45
 \end_layout
 
@@ -5870,18 +4831,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.29
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.93
 \end_layout
 
 \end_inset
@@ -5937,15 +4886,6 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.68
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.38
 \end_layout
 
@@ -5975,7 +4915,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.61
 \end_layout
 
@@ -5994,18 +4933,8 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.52
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.62
 \end_layout
 
@@ -6053,15 +4982,6 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.90
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.25
 \end_layout
 
@@ -6099,15 +5019,6 @@ Decision Tree
 
 \begin_layout Plain Layout
 0.94
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.27
 \end_layout
 
 \end_inset
@@ -6163,15 +5074,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.87
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.22
 \end_layout
 
@@ -6209,15 +5111,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.90
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.38
 \end_layout
 
 \end_inset
@@ -6273,15 +5166,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.87
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.26
 \end_layout
 
@@ -6293,7 +5177,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.51
 \end_layout
 
@@ -6305,7 +5188,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.35
 \end_layout
 
@@ -6317,7 +5199,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.68
 \end_layout
 
@@ -6338,19 +5219,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.51
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.71
 \end_layout
 
@@ -6398,15 +5266,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.82
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.16
 \end_layout
 
@@ -6444,15 +5303,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.85
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.41
 \end_layout
 
 \end_inset
@@ -6510,19 +5360,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.91
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.34
 \end_layout
 
@@ -6561,17 +5398,7 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.30
 \end_layout
 
 \end_inset
@@ -6627,18 +5454,8 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.77
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.68
 \end_layout
 
@@ -6676,15 +5493,6 @@ Decision Tree
 
 \begin_layout Plain Layout
 0.84
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.63
 \end_layout
 
 \end_inset
@@ -6740,15 +5548,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.76
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.67
 \end_layout
 
@@ -6787,17 +5586,7 @@ SMOTE
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.85
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.57
 \end_layout
 
 \end_inset
@@ -6855,19 +5644,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.79
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.68
 \end_layout
 
@@ -6879,7 +5655,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.75
 \end_layout
 
@@ -6891,7 +5666,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.71
 \end_layout
 
@@ -6903,7 +5677,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.78
 \end_layout
 
@@ -6924,19 +5697,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.75
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.78
 \end_layout
 
@@ -6984,15 +5744,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.70
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.55
 \end_layout
 
@@ -7004,7 +5755,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.75
 \end_layout
 
@@ -7033,18 +5783,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.68
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.75
 \end_layout
 
 \end_inset
@@ -7100,15 +5838,6 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.74
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.60
 \end_layout
 
@@ -7146,15 +5875,6 @@ Dev
 
 \begin_layout Plain Layout
 0.75
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.74
 \end_layout
 
 \end_inset
@@ -7212,19 +5932,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.88
 \end_layout
 
@@ -7245,7 +5952,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.88
 \end_layout
 
@@ -7257,7 +5963,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.93
 \end_layout
 
@@ -7269,17 +5974,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.88
 \end_layout
 
 \end_inset
@@ -7290,7 +5985,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.93
 \end_layout
 
@@ -7338,18 +6032,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.87
 \end_layout
 
@@ -7388,17 +6070,7 @@ SMOTE
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.85
 \end_layout
 
 \end_inset
@@ -7456,19 +6128,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.88
 \end_layout
 
@@ -7507,17 +6166,7 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.87
 \end_layout
 
 \end_inset
@@ -7573,15 +6222,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.80
 \end_layout
 
@@ -7619,15 +6259,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.87
 \end_layout
 
 \end_inset
@@ -7683,15 +6314,6 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.72
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.34
 \end_layout
 
@@ -7703,7 +6325,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.97
 \end_layout
 
@@ -7732,18 +6353,6 @@ Dev
 
 \begin_layout Plain Layout
 0.68
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.97
 \end_layout
 
 \end_inset
@@ -7799,15 +6408,6 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.83
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.46
 \end_layout
 
@@ -7846,17 +6446,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.87
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.59
 \end_layout
 
 \end_inset
@@ -7912,15 +6502,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.81
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.41
 \end_layout
 
@@ -7958,15 +6539,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.85
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.60
 \end_layout
 
 \end_inset
@@ -8022,15 +6594,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.82
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.43
 \end_layout
 
@@ -8068,15 +6631,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.84
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.66
 \end_layout
 
 \end_inset
@@ -8132,15 +6686,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.70
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.32
 \end_layout
 
@@ -8152,7 +6697,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.82
 \end_layout
 
@@ -8181,18 +6725,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.68
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.82
 \end_layout
 
 \end_inset
@@ -8250,19 +6782,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.84
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.50
 \end_layout
 
@@ -8283,7 +6802,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.59
 \end_layout
 
@@ -8295,7 +6813,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.79
 \end_layout
 
@@ -8307,17 +6824,7 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.87
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.73
 \end_layout
 
 \end_inset
@@ -8328,7 +6835,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.80
 \end_layout
 
@@ -8376,15 +6882,6 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.93
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.35
 \end_layout
 
@@ -8422,15 +6919,6 @@ Decision Tree
 
 \begin_layout Plain Layout
 0.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.48
 \end_layout
 
 \end_inset
@@ -8486,15 +6974,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.91
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.26
 \end_layout
 
@@ -8532,15 +7011,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.93
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.48
 \end_layout
 
 \end_inset
@@ -8596,15 +7066,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.89
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.22
 \end_layout
 
@@ -8616,7 +7077,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.52
 \end_layout
 
@@ -8645,18 +7105,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.91
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.52
 \end_layout
 
 \end_inset
@@ -8712,15 +7160,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.94
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.41
 \end_layout
 
@@ -8732,7 +7171,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.52
 \end_layout
 
@@ -8744,7 +7182,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.46
 \end_layout
 
@@ -8756,7 +7193,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.71
 \end_layout
 
@@ -8777,19 +7213,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.52
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.74
 \end_layout
 
@@ -8839,19 +7262,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.47
 \end_layout
 
@@ -8890,17 +7300,7 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.28
 \end_layout
 
 \end_inset
@@ -8956,15 +7356,6 @@ Decision Tree
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.75
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.48
 \end_layout
 
@@ -9002,15 +7393,6 @@ Decision Tree
 
 \begin_layout Plain Layout
 0.84
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.47
 \end_layout
 
 \end_inset
@@ -9066,15 +7448,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.70
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.41
 \end_layout
 
@@ -9112,15 +7485,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.75
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.56
 \end_layout
 
 \end_inset
@@ -9176,15 +7540,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.71
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.42
 \end_layout
 
@@ -9222,15 +7577,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.75
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.57
 \end_layout
 
 \end_inset
@@ -9288,19 +7634,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.81
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.62
 \end_layout
 
@@ -9321,7 +7654,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.58
 \end_layout
 
@@ -9342,17 +7674,7 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.90
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.55
 \end_layout
 
 \end_inset
@@ -9363,7 +7685,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.72
 \end_layout
 
@@ -9411,15 +7732,6 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.75
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.48
 \end_layout
 
@@ -9431,7 +7743,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.67
 \end_layout
 
@@ -9452,7 +7763,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.72
 \end_layout
 
@@ -9473,19 +7783,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.67
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.72
 \end_layout
 
@@ -9535,19 +7832,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.91
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.53
 \end_layout
 
@@ -9586,17 +7870,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.95
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.51
 \end_layout
 
 \end_inset
@@ -9652,15 +7926,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.90
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.51
 \end_layout
 
@@ -9698,15 +7963,6 @@ SMOTE
 
 \begin_layout Plain Layout
 0.93
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.63
 \end_layout
 
 \end_inset
@@ -9762,15 +8018,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.89
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.45
 \end_layout
 
@@ -9808,15 +8055,6 @@ ADASYN
 
 \begin_layout Plain Layout
 0.92
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.60
 \end_layout
 
 \end_inset
@@ -9872,15 +8110,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.90
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.49
 \end_layout
 
@@ -9901,7 +8130,6 @@ SMOTEBoost
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.58
 \end_layout
 
@@ -9929,18 +8157,8 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.72
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.82
 \end_layout
 
@@ -9988,15 +8206,6 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.88
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.42
 \end_layout
 
@@ -10008,7 +8217,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.75
 \end_layout
 
@@ -10029,7 +8237,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.82
 \end_layout
 
@@ -10050,19 +8257,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.75
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.82
 \end_layout
 
@@ -10112,19 +8306,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
-0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
 0.81
 \end_layout
 
@@ -10145,7 +8326,6 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.82
 \end_layout
 
@@ -10166,17 +8346,7 @@ Decision Tree
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.99
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.82
 \end_layout
 
 \end_inset
@@ -10232,18 +8402,6 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.78
 \end_layout
 
@@ -10289,18 +8447,8 @@ SMOTE
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.85
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.92
 \end_layout
 
@@ -10348,18 +8496,6 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\bar under
-0.97
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.79
 \end_layout
 
@@ -10380,7 +8516,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.82
 \end_layout
 
@@ -10392,7 +8527,6 @@ ADASYN
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.92
 \end_layout
 
@@ -10411,18 +8545,8 @@ ADASYN
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.86
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 
 \series bold
-\bar under
 0.92
 \end_layout
 
@@ -10470,15 +8594,6 @@ SMOTEBoost
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.73
 \end_layout
 
@@ -10516,15 +8631,6 @@ SMOTEBoost
 
 \begin_layout Plain Layout
 0.98
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.72
 \end_layout
 
 \end_inset
@@ -10580,15 +8686,6 @@ Dev
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.91
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.43
 \end_layout
 
@@ -10600,7 +8697,6 @@ Dev
 \begin_layout Plain Layout
 
 \series bold
-\bar under
 0.88
 \end_layout
 
@@ -10629,18 +8725,6 @@ Dev
 
 \begin_layout Plain Layout
 0.91
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\bar under
-0.88
 \end_layout
 
 \end_inset

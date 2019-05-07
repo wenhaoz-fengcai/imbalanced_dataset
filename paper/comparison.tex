@@ -1,0 +1,218 @@
+%% LyX 2.3.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{array}
+\usepackage{multirow}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{graphicx}
+\usepackage{colortbl}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\begin{table}
+\caption{Evaluation metrics and performance comparison}
+
+\noindent\resizebox{\textwidth}{!}{
+
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline 
+Dataset & Methods & Precision & Recall & F\_measure & G\_mean & Specificity & AUC & Outcome Frequency & Imbalanced ratio\tabularnewline
+\hline 
+\hline 
+\multirow{5}{*}{Pima Indian Diabetes} & Decision Tree & \textbf{0.61} & 0.54 & 0.57 & 0.66 & \textbf{0.80} & 0.67 & \multirow{5}{*}{Maj: 500 Min:268} & \multirow{5}{*}{1.9}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.55 & 0.54 & 0.54 & 0.63 & 0.75 & 0.64 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.56 & 0.58 & 0.57 & 0.66 & 0.74 & 0.66 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.52 & \textbf{0.86} & 0.64 & 0.68 & 0.54 & 0.70 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.60 & 0.78 & \textbf{0.68} & \textbf{0.74} & 0.71 & \textbf{0.74} &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Abalone} & Decision Tree & 0.46 & \textbf{0.46} & \textbf{0.46} & \textbf{0.66} & 0.96 & \textbf{0.71} & \multirow{5}{*}{Maj:689 Min:42} & \multirow{5}{*}{16.4}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.24 & 0.38 & 0.29 & 0.59 & 0.92 & 0.65 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.24 & 0.42 & 0.31 & 0.62 & 0.91 & 0.66 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.19 & \textbf{0.46} & 0.27 & 0.63 & 0.87 & 0.66 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & \textbf{0.55} & 0.34 & 0.42 & 0.58 & \textbf{0.98} & 0.66 &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Vowel Recognition} & Decision Tree & \textbf{0.90} & 0.79 & 0.84 & 0.88 & \textbf{0.99} & 0.89 & \multirow{5}{*}{Maj:900 Min:90} & \multirow{5}{*}{10.0}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.85 & 0.74 & 0.80 & 0.86 & 0.99 & 0.87 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.88 & 0.79 & 0.83 & 0.88 & 0.99 & 0.89 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.83 & 0.96 & 0.89 & 0.97 & 0.98 & 0.97 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.87 & \textbf{0.98} & \textbf{0.93} & \textbf{0.98} & \textbf{0.99} & \textbf{0.98} &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Mammography} & Decision Tree & 0.62 & 0.64 & 0.63 & 0.79 & \textbf{0.99} & 0.81 & \multirow{5}{*}{Maj: 10923 Min: 260} & \multirow{5}{*}{42}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.41 & \textbf{0.78} & 0.54 & \textbf{0.87} & 0.97 & \textbf{0.88} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.38 & 0.72 & 0.50 & 0.84 & 0.97 & 0.84 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.54 & 0.76 & 0.63 & 0.86 & 0.98 & 0.87 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & \textbf{0.66} & 0.67 & \textbf{0.67} & 0.82 & \textbf{0.99} & 0.83 &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Ionosphere} & Decision Tree & 0.83 & 0.73 & 0.77 & 0.82 & 0.92 & 0.83 & \multirow{5}{*}{Maj: 225 Min 126} & \multirow{5}{*}{1.8}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.75 & 0.81 & 0.78 & 0.84 & 0.86 & 0.84 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.84 & 0.80 & 0.82 & 0.86 & 0.92 & 0.86 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.89 & \textbf{0.85} & \textbf{0.87} & \textbf{0.90} & 0.95 & \textbf{0.90} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & \textbf{0.92} & 0.79 & 0.85 & 0.87 & \textbf{0.97} & 0.88 &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Vehicle} & Decision Tree & \textbf{0.85} & 0.88 & 0.87 & 0.92 & \textbf{0.95} & 0.92 & \multirow{5}{*}{Maj: 647 Min:199} & \multirow{5}{*}{3.3}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.75 & 0.88 & 0.81 & 0.89 & 0.91 & 0.89 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.81 & 0.87 & 0.84 & 0.90 & 0.93 & 0.90 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.84 & \textbf{0.97} & \textbf{0.90} & \textbf{0.96} & 0.94 & \textbf{0.96} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.70 & \textbf{0.97} & 0.81 & 0.92 & 0.87 & 0.92 &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Phoneme} & Decision Tree & \textbf{0.75} & 0.74 & 0.75 & 0.82 & \textbf{0.90} & 0.82 & \multirow{5}{*}{Maj: 3818 Min:1580} & \multirow{5}{*}{2.4}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.74 & 0.78 & \textbf{0.76} & \textbf{0.83} & 0.89 & \textbf{0.83} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.68 & 0.78 & 0.73 & 0.82 & 0.85 & 0.82 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.57 & 0.86 & 0.69 & 0.80 & 0.74 & 0.80 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.38 & \textbf{0.99} & 0.54 & 0.57 & 0.34 & 0.66 &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Haberman} & Decision Tree & 0.38 & 0.25 & 0.30 & 0.46 & \textbf{0.83} & 0.54 & \multirow{5}{*}{Maj: 225 Min:81} & \multirow{5}{*}{2.8}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & \textbf{0.40} & 0.39 & 0.39 & \textbf{0.64} & 0.76 & 0.57 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.37 & 0.52 & 0.43 & 0.58 & 0.63 & 0.58 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.34 & \textbf{0.84} & \textbf{0.48} & 0.53 & 0.34 & \textbf{0.59} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.35 & 0.70 & 0.47 & 0.57 & 0.48 & \textbf{0.59} &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Wisconsin} & Decision Tree & 0.93 & 0.93 & 0.93 & 0.95 & 0.96 & 0.95 & \multirow{5}{*}{Maj: 357 Min: 212} & \multirow{5}{*}{1.7}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.89 & 0.90 & 0.89 & 0.91 & 0.93 & 0.91 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.93 & 0.94 & 0.94 & 0.95 & 0.96 & 0.95 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & \textbf{0.99} & \textbf{0.95} & \textbf{0.97} & \textbf{0.97} & \textbf{0.99} & \textbf{0.97} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.97 & \textbf{0.95} & 0.96 & 0.96 & 0.98 & 0.96 &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Blood Transfusion} & Decision Tree & \textbf{0.39} & 0.28 & 0.32 & 0.49 & \textbf{0.86} & 0.57 & \multirow{5}{*}{Maj: 570 Min: 178} & \multirow{5}{*}{1.8}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & \textbf{0.39} & 0.39 & 0.39 & 0.56 & 0.81 & 0.60 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.38 & 0.42 & 0.40 & 0.57 & 0.78 & 0.60 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.29 & \textbf{0.93} & \textbf{0.45} & 0.52 & 0.29 & 0.61 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.38 & 0.52 & 0.44 & \textbf{0.61} & 0.73 & \textbf{0.62} &  & \tabularnewline
+\hline 
+\multirow{5}{*}{PC1} & Decision Tree & 0.25 & 0.27 & 0.26 & 0.50 & 0.94 & 0.61 & \multirow{5}{*}{Maj: 1032 Min: 77} & \multirow{5}{*}{13.4}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.22 & 0.38 & 0.27 & 0.58 & 0.90 & 0.64 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.26 & \textbf{0.51} & \textbf{0.35} & \textbf{0.68} & 0.90 & \textbf{0.71} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.16 & 0.41 & 0.23 & 0.59 & 0.85 & 0.63 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & \textbf{0.34} & 0.30 & 0.32 & 0.53 & \textbf{0.96} & 0.63 &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Heart} & Decision Tree & \textbf{0.68} & 0.63 & 0.65 & 0.73 & 0.84 & 0.74 & \multirow{5}{*}{Maj: 188 Min: 106} & \multirow{5}{*}{6.9}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.67 & 0.57 & 0.62 & 0.70 & \textbf{0.85} & 0.71 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & \textbf{0.68} & \textbf{0.75} & \textbf{0.71} & \textbf{0.78} & 0.81 & \textbf{0.78} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.55 & \textbf{0.75} & 0.63 & 0.71 & 0.68 & 0.71 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.60 & 0.74 & 0.66 & 0.74 & 0.75 & 0.74 &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Segment} & Decision Tree & \textbf{0.88} & 0.88 & \textbf{0.88} & \textbf{0.93} & \textbf{0.98} & \textbf{0.93} & \multirow{5}{*}{Maj: 1980 Min: 330} & \multirow{5}{*}{6.0}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.87 & 0.85 & 0.86 & 0.91 & \textbf{0.98} & 0.91 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & \textbf{0.88} & 0.87 & 0.87 & 0.92 & \textbf{0.98} & 0.92 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.80 & 0.87 & 0.83 & 0.92 & 0.96 & 0.92 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.34 & \textbf{0.97} & 0.51 & 0.81 & 0.68 & 0.82 &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Yeast} & Decision Tree & 0.46 & 0.59 & 0.51 & 0.72 & \textbf{0.87} & 0.73 & \multirow{5}{*}{Maj: 1240 Min: 244} & \multirow{5}{*}{5.1}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.41 & 0.60 & 0.49 & 0.71 & 0.85 & 0.72 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.43 & 0.66 & 0.52 & 0.75 & 0.84 & 0.75 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.32 & \textbf{0.82} & 0.46 & 0.75 & 0.68 & 0.75 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & \textbf{0.50} & 0.73 & \textbf{0.59} & \textbf{0.79} & \textbf{0.87} & \textbf{0.80} &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Oil} & Decision Tree & 0.35 & 0.48 & 0.41 & 0.68 & 0.96 & 0.72 & \multirow{5}{*}{Maj: 896 Min: 41} & \multirow{5}{*}{21.9}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.26 & 0.48 & 0.33 & 0.67 & 0.93 & 0.70 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.22 & \textbf{0.52} & 0.31 & 0.69 & 0.91 & 0.71 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.41 & \textbf{0.52} & \textbf{0.46} & \textbf{0.71} & 0.96 & \textbf{0.74} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & \textbf{0.47} & 0.28 & 0.35 & 0.52 & \textbf{0.98} & 0.63 &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Adult} & Decision Tree & 0.48 & 0.47 & 0.48 & 0.63 & 0.84 & 0.66 & \multirow{5}{*}{Maj: 37155 Min: 11687} & \multirow{5}{*}{3.2}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.41 & 0.56 & 0.48 & 0.65 & 0.75 & 0.65 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.42 & 0.57 & 0.48 & 0.65 & 0.75 & 0.66 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & \textbf{0.62} & 0.55 & \textbf{0.58} & 0.70 & \textbf{0.90} & \textbf{0.72} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.48 & \textbf{0.67} & 0.56 & \textbf{0.72} & 0.77 & \textbf{0.72} &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Satimage} & Decision Tree & \textbf{0.53} & 0.51 & 0.52 & 0.70 & \textbf{0.95} & 0.73 & \multirow{5}{*}{Maj: 5805 Min: 625} & \multirow{5}{*}{9.3}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.51 & 0.63 & 0.56 & 0.77 & 0.93 & 0.78 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.45 & 0.60 & 0.52 & 0.75 & 0.92 & 0.76 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.49 & 0.72 & \textbf{0.58} & 0.81 & 0.92 & \textbf{0.82} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.42 & \textbf{0.75} & 0.54 & \textbf{0.82} & 0.89 & \textbf{0.82} &  & \tabularnewline
+\hline 
+\multirow{5}{*}{Forest cover} & Decision Tree & \textbf{0.81} & 0.82 & \textbf{0.82} & 0.90 & \textbf{0.99} & 0.90 & \multirow{5}{*}{Maj: 35754 Min: 2747} & \multirow{5}{*}{13.0}\tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTE & 0.78 & 0.85 & 0.81 & 0.91 & 0.98 & \textbf{0.92} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & ADASYN & 0.79 & 0.86 & \textbf{0.82} & \textbf{0.92} & 0.98 & \textbf{0.92} &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & SMOTEBoost & 0.73 & 0.72 & 0.72 & 0.84 & 0.98 & 0.85 &  & \tabularnewline
+\cline{2-8} \cline{3-8} \cline{4-8} \cline{5-8} \cline{6-8} \cline{7-8} \cline{8-8} 
+ & Dev & 0.43 & \textbf{0.88} & 0.58 & 0.90 & 0.91 & 0.90 &  & \tabularnewline
+\hline 
+\end{tabular}
+
+}
+\end{table}
+
+\end{document}
